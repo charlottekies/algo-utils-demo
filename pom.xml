@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>Algo-Utils-Demo</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>Archetype - testing-new-maven-library</name>
+  <url>http://maven.apache.org</url>
+
+
+  <dependencies>
+    <dependency>
+      <groupId>io.github.charlottekies</groupId>
+      <artifactId>algoutils</artifactId>
+      <version>1.0.4</version>  <!-- Make sure the version matches -->
+    </dependency>
+  </dependencies>
+
+
+  <repositories>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/charlottekies/algo-utils</url>
+    </repository>
+  </repositories>
+
+</project>
